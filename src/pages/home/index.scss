@@ -1,0 +1,28 @@
+@import "../../components/botao-adotar/";
+@import "../../components/cabecalho/";
+ 
+@import "secao1";
+@import "secao2";
+@import "secao3";
+@import "secao4";
+@import "secao5";
+
+
+body {
+    font-family: 'Poppins';
+    font-size: 18px;
+    background-color: #FFFBF1;
+    background: var(--brand-background, linear-gradient(181deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), #FFFBF1);
+    border-radius: 20px;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+footer {
+    background-color: #75A342;
+    height: 5vh;
+}

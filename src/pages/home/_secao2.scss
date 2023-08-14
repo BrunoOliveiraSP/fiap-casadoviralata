@@ -1,0 +1,23 @@
+@import "../../components/cards/como-funciona/";
+
+
+.secao2 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+
+    .wrapper > h1 {
+        text-align: center;
+        margin-bottom: 70px;
+    } 
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+    
+}
+
+

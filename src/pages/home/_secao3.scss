@@ -1,0 +1,76 @@
+
+
+
+
+.secao3 {
+    display: flex;
+    justify-content: center;
+
+    padding: 80px 20px;
+
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        & > h1 {
+            text-align: center;
+            margin: 0px;
+        }
+
+        & > p {
+            text-align: center;
+            max-width: 950px;
+            line-height: 27px;
+            margin: 0px;
+        }
+    }
+
+
+    .galeria {
+        display: flex;
+        gap: 24px;
+
+        img {
+            transition: .3s;
+            
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .vertical {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+    }
+
+
+
+        
+    @media (max-width: 1200px) {
+
+        .galeria {
+            flex-direction: column;
+
+            .vertical {
+                flex-direction: row;
+                
+                img {
+                    width: calc(50% - 13px);
+                }
+            }
+    
+            & > img {
+                width: 100%;
+            }
+        }
+        
+    }
+    
+}
+
+

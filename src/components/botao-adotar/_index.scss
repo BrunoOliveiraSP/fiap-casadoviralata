@@ -1,0 +1,25 @@
+
+
+
+.btn-adotar {
+    padding: 20px 50px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #75A342;
+    color: #fff !important;
+    box-shadow: 0px 7px 10px #cfecaf;
+    transition: .3s;
+    outline: none;
+    border: none;
+}
+
+.btn-adotar:hover {
+    background-color: #7cb53b;
+    text-decoration: none !important;
+}
+
+.btn-adotar:active {
+    background-color: #679237;
+}
+

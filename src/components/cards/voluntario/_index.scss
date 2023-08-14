@@ -1,0 +1,22 @@
+
+
+.card-voluntario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    img {
+
+    }
+
+    h1 {
+        font: 700 18px 'Poppins';
+        margin: 0px;
+    }
+
+    p {
+        font: 400 18px 'Poppins';
+        margin: 0px;
+    }
+}
