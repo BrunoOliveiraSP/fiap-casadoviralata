@@ -1,6 +1,7 @@
 @import "../../components/botao-adotar/";
 @import "../../components/cabecalho/";
  
+@import "../../components/variaveis/";
 @import "secao1";
 @import "secao2";
 @import "secao3";
@@ -23,6 +24,7 @@ body {
 }
 
 footer {
-    background-color: #75A342;
+    background-color: $primary-color;
     height: 5vh;
 }
+

@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="/public/css/global.css">
     <link rel="stylesheet" href="/public/css/normalize.css">
     <link rel="stylesheet" href="index.css">
@@ -12,7 +16,7 @@
 
 <body>
 
-    <main class="secao1">
+    <main class="secao1 d-flex justify-content-center">
         <div class="wrapper">
             <header class="cabecalho">
                 <img src="/public/images/logo.svg" alt="Logo" />
@@ -25,8 +29,8 @@
                     <a class="btn-adotar" href="#">Quero adotar</a>
                 </nav>
             </header>
-            <div class="conteudo">
-                <div class="textos">
+            <div class="conteudo d-flex justify-content-between align-items-center">
+                <div class="textos d-flex flex-column align-items-start">
                     <h1>Adotar <br />é um ato de <span>amor.</span></h1>
                     <p>Não existem animais de rua, existem animais nas ruas e eles precisam de nós.</p>
                     <a href="#" class="btn-adotar">Quero adotar</a>
@@ -37,11 +41,11 @@
     </main>
 
 
-    <section class="secao2">
+    <section class="secao2 d-flex justify-content-center">
         <div class="wrapper">
-            <h1>Como funciona?</h1>
+            <h1 class="text-center mb-5">Como funciona?</h1>
 
-            <div class="cards">
+            <div class="cards d-flex justify-content-center flex-wrap gap-5">
                 <div class="card-como-funciona">
                     <img src="/public/images/passo-um.svg" alt="" />
                     <h1>Primeiro...</h1>
@@ -64,15 +68,15 @@
     </section>
 
 
-    <section class="secao3">
-        <div class="wrapper">
-            <h1>Quem somos?</h1>
-            <p>Somos uma instituição de voluntários formada por moradores de Guarulhos e queremos levar dignidade, saúde e amor aos animais nas ruas dessa região.</p>
+    <section class="secao3 d-flex justify-content-center">
+        <div class="wrapper d-flex flex-column align-items-center">
+            <h1 class="text-center mb-4">Quem somos?</h1>
+            <p class="text-center mb-4">Somos uma instituição de voluntários formada por moradores de Guarulhos e queremos levar dignidade, saúde e amor aos animais nas ruas dessa região.</p>
 
-            <div class="galeria">
+            <div class="galeria d-flex gap-4">
                 <img src="/public/images/quem-somos-1.png" alt="" />
 
-                <div class="vertical">
+                <div class="vertical d-flex flex-column gap-4">
                     <img src="/public/images/quem-somos-2.png" alt="" />
                     <img src="/public/images/quem-somos-3.png" alt="" />
                 </div>
@@ -80,11 +84,11 @@
         </div>
     </section>
 
-    <section class="secao4">
+    <section class="secao4 d-flex justify-content-center">
         <div class="wrapper">
-            <h1>Conheça os voluntários</h1>
+            <h1 class="text-center mb-5">Conheça os voluntários</h1>
 
-            <div class="lista-voluntarios">
+            <div class="lista-voluntarios d-flex justify-content-center gap-5">
                 <div class="card-voluntario">
                     <img src="/public/images/voluntario-1.png" alt=""/>
                     <div>
@@ -116,15 +120,15 @@
 
 
 
-    <section class="secao-5">
+    <section class="secao-5 d-flex justify-content-center">
         <div class="wrapper">
-            <h1>Adote um amigo</h1>
-            <p>
+            <h1 class="text-center">Adote um amigo</h1>
+            <p class="text-center mb-5">
                 Acompanhe o Instagram da Casa do Vira-Lata para ver os animais disponíveis, preencha o cadastro e
                 aguarde o retorno do status da adoção em até 24h pelo seu WhatsApp!
             </p>
 
-            <div class="conteudo">
+            <div class="conteudo d-flex justify-content-center align-items-center">
                 <div class="img-adotar">
                     <img src="/public/images/adotar-form.svg" alt="Adotar"/>
                 </div>

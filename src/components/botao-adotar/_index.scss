@@ -1,4 +1,4 @@
-
+@import "../variaveis/cores";
 
 
 .btn-adotar {
@@ -6,7 +6,7 @@
     text-decoration: none;
     font-weight: 700;
     border-radius: 100px;
-    background-color: #75A342;
+    background-color: $primary-color;
     color: #fff !important;
     box-shadow: 0px 7px 10px #cfecaf;
     transition: .3s;
